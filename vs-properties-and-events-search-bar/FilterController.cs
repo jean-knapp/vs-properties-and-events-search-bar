@@ -87,12 +87,20 @@ namespace PropertiesSearch
         /// <summary>Puts the original objects back (used before shutdown).</summary>
         internal void Restore()
         {
-            if (_grid.IsDisposed || !_proxied) return;
+            // Nothing to restore into once the grid's window is gone (e.g. we're
+            // disposing in response to its own HandleDestroyed event during IDE
+            // shutdown) - PropertyGrid's internal state is torn down at that point
+            // and its SelectedObjects setter can throw a NullReferenceException.
+            if (_grid.IsDisposed || !_grid.IsHandleCreated || !_proxied) return;
             _applying = true;
             try
             {
                 _grid.SelectedObjects = _originals;
                 _proxied = false;
+            }
+            catch (NullReferenceException)
+            {
+                // Best-effort restore; the grid is going away regardless.
             }
             finally { _applying = false; }
         }
