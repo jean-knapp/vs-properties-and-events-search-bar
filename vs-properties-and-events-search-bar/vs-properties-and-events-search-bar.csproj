@@ -81,6 +81,9 @@
     <Content Include="icon.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="icon-128.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="icons8-search-bar-512.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

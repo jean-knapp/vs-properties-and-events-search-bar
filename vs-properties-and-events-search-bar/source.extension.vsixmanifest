@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="PropertiesSearch.7f4c1a2e-9b3d-4e6f-8a21-c5d0e7b94a63" Version="1.0.0" Language="en-US" Publisher="Jean Knapp" />
+    <Identity Id="PropertiesSearch.7f4c1a2e-9b3d-4e6f-8a21-c5d0e7b94a63" Version="1.0.2" Language="en-US" Publisher="Jean Knapp" />
     <DisplayName>Properties and Events Search Bar</DisplayName>
     <Description xml:space="preserve">Adds a search bar to the top of the Properties window so you can filter properties, and filter events in the Events view.</Description>
-    <Icon>icon.ico</Icon>
+    <Icon>icon-128.png</Icon>
     <PreviewImage>icons8-search-bar-512.png</PreviewImage>
   </Metadata>
   <Installation>
