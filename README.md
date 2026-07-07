@@ -1,6 +1,15 @@
-# Properties and Events Search Bar
+<h1>
+  <img src="https://github.com/user-attachments/assets/d71dc48b-b35b-47c3-a76f-aaa8f008c036" width="48" alt="Icon" />
+  Properties and Events Search Bar
+</h1>
 
 A Visual Studio extension that adds a live search bar to the top of the **Properties** window, so you can quickly filter down long property and event lists instead of scrolling through them.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/110d6957-ecd4-470e-8fc7-914109c31c76" width="399" />
+  <img src="https://github.com/user-attachments/assets/b6501d36-5753-4270-b92a-47c0c5ee919a" width="399" />
+</p>
+
 
 ## Features
 
